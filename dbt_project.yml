@@ -17,7 +17,9 @@ clean-targets:
 
 models:
   depi_dbt_project:
-    staging:
+    ods:
+      +materialized: view
+    obt:
       +materialized: view
     dwh:
       +materialized: table

@@ -1,43 +1,87 @@
 version: 2
 
 models:
-  - name: dim_customers
-    description: "DWH layer: customer dimension built from stg_customers"
-    columns:
-      - name: customer_id
-        description: "Customer key"
-        tests:
-          - unique
-          - not_null
   - name: dim_country
     description: "Country dimension"
     columns:
       - name: country_key
+        description: "Surrogate key"
         tests: [unique, not_null]
+      - name: country
+        description: "Country name"
   - name: dim_department
     description: "Department dimension"
     columns:
       - name: department_key
+        description: "Surrogate key"
         tests: [unique, not_null]
+      - name: department
+        description: "Department name"
   - name: dim_gender
     description: "Gender dimension"
     columns:
       - name: gender_key
+        description: "Surrogate key"
         tests: [unique, not_null]
+      - name: gender
+        description: "Gender"
+        tests:
+          - accepted_values:
+              values: ['Male', 'Female']
   - name: dim_date
     description: "Hire date dimension"
     columns:
       - name: date_key
+        description: "Surrogate key"
         tests: [unique, not_null]
+      - name: full_date
+        description: "Calendar date"
   - name: dim_employee
     description: "Employee dimension"
     columns:
       - name: employee_key
+        description: "Employee key"
         tests: [unique, not_null]
+      - name: full_name
+        description: "Employee full name (lowercase, trimmed)"
+      - name: email
+        description: "Employee email"
   - name: fact_employee
     description: "Fact table: one row per employee with dimension keys and salary"
     columns:
       - name: employee_key
-        tests: [unique, not_null]
+        description: "FK to dim_employee"
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('dim_employee')
+              field: employee_key
+      - name: country_key
+        description: "FK to dim_country"
+        tests:
+          - relationships:
+              to: ref('dim_country')
+              field: country_key
+      - name: department_key
+        description: "FK to dim_department"
+        tests:
+          - relationships:
+              to: ref('dim_department')
+              field: department_key
+      - name: gender_key
+        description: "FK to dim_gender"
+        tests:
+          - relationships:
+              to: ref('dim_gender')
+              field: gender_key
+      - name: date_key
+        description: "FK to dim_date"
+        tests:
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
       - name: salary
         description: "Monthly salary"
+        tests:
+          - positive_value

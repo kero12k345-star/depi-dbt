@@ -13,3 +13,12 @@ models:
         description: "Lowercased employee email"
         tests:
           - not_null
+      - name: gender
+        description: "Employee gender"
+        tests:
+          - accepted_values:
+              values: ['Male', 'Female']
+      - name: salary
+        description: "Monthly salary"
+        tests:
+          - positive_value
