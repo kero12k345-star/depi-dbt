@@ -47,3 +47,4 @@ dbt docs generate
 ## Tech stack
 
 dbt Core 1.10, PostgreSQL, Jinja macros, GitHub Pages
+![dbt CI](https://github.com/kero12k345-star/depi-dbt/actions/workflows/dbt-ci.yml/badge.svg)
