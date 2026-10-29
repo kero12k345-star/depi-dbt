@@ -14,11 +14,11 @@ seed (DEPI_data) -> ods_employees -> obt_employees -> dim_* (5) + fact_employee
 | ods | view | Cleaned raw data |
 | obt | view | One big table |
 | dwh | table | Star schema: 5 dimensions + 1 fact |
-| snapshots | table | Employee change history (SCD2) |
+|snapshot | table | Employee change history (SCD2): snap_employee|
 
 ## Data Quality
 
-- 30+ tests: `unique`, `not_null`, `accepted_values`, `relationships`
+- 42 checks (32 data tests + 10 model builds): unique, not_null, accepted_values, relationships
 - Custom generic test: `positive_value`
 - Singular tests for business rules
 
@@ -36,12 +36,12 @@ Live documentation and lineage graph: https://kero12k345-star.github.io/depi-dbt
 ## How to run
 
 ```bash
-pip install dbt-postgres
+pip install dbt-core dbt-postgres
 dbt seed
-dbt run
+dbt build
 dbt snapshot
-dbt test
 dbt docs generate
+dbt docs serve
 
 
 ## Tech stack
