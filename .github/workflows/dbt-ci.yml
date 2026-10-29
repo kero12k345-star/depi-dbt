@@ -4,30 +4,61 @@ on:
   push:
     branches: [main]
   pull_request:
+    branches: [main]
 
 jobs:
   dbt-build:
     runs-on: ubuntu-latest
+
     services:
       postgres:
         image: postgres:16
         env:
-          POSTGRES_USER: dbt
-          POSTGRES_PASSWORD: dbt
-          POSTGRES_DB: dbt_ci
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: ci_password
+          POSTGRES_DB: depi_dbt
         ports:
           - 5432:5432
         options: >-
-          --health-cmd "pg_isready -U dbt"
-          --health-interval 5s
+          --health-cmd pg_isready
+          --health-interval 10s
           --health-timeout 5s
-          --health-retries 10
+          --health-retries 5
+
+    env:
+      DBT_PROFILES_DIR: ci
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
+
       - name: Install dbt
-        run: pip install -r requirements.txt
+        run: pip install dbt-core dbt-postgres
+
+      - name: Create CI profile
+        run: |
+          mkdir -p ci
+          cat > ci/profiles.yml <<EOF
+          depi_profile:
+            target: ci
+            outputs:
+              ci:
+                type: postgres
+                host: localhost
+                port: 5432
+                user: postgres
+                password: ci_password
+                dbname: depi_dbt
+                schema: public
+                threads: 4
+          EOF
+
       - name: dbt build
-        run: dbt build --profiles-dir ci
+        run: |
+          dbt seed
+          dbt build
