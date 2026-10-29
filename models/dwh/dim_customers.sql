@@ -7,5 +7,5 @@ select
     customer_name,
     email,
     created_at,
-    current_timestamp as loaded_at
+    {{ add_loaded_at() }} as loaded_at
 from staging_customers

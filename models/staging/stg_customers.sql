@@ -2,7 +2,7 @@ with raw_customers as (
     select
         id as customer_id,
         trim(name) as customer_name,
-        email,
+        {{ clean_text('email') }} as email,
         created_at
     from {{ source('raw_data', 'customers') }}
 )
