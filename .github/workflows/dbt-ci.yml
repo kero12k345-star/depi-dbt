@@ -60,5 +60,6 @@ jobs:
         run: |
           dbt debug
           dbt seed
-          dbt snapshot
           dbt build
+          dbt snapshot
+          
