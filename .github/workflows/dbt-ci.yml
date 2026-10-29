@@ -25,9 +25,6 @@ jobs:
           --health-timeout 5s
           --health-retries 5
 
-    env:
-      DBT_PROFILES_DIR: ci
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -37,14 +34,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dbt
-        run: pip install dbt-core dbt-postgres
+      - name: Install dbt (same version as local)
+        run: |
+          pip install "dbt-core>=1.10,<1.11" "dbt-postgres>=1.10,<1.11"
 
       - name: Create CI profile
         run: |
-          mkdir -p ci
-          cat > ci/profiles.yml <<EOF
-          depi_profile:
+          mkdir -p ~/.dbt
+          cat > ~/.dbt/profiles.yml <<'EOF'
+          depi_dbt:
             target: ci
             outputs:
               ci:
@@ -58,7 +56,9 @@ jobs:
                 threads: 4
           EOF
 
-      - name: dbt build
+      - name: Run dbt
         run: |
+          dbt debug
           dbt seed
+          dbt snapshot
           dbt build
