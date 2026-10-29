@@ -2,7 +2,7 @@ version: 2
 
 snapshots:
   - name: snap_employee
-    description: "SCD Type 2 history of employee attributes (name, email, gender, country, department, hire date, salary)"
+    description: "SCD Type 2 history of employee attributes"
     columns:
       - name: dbt_scd_id
         description: "Unique id of each historical version"
