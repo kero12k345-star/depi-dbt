@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "DWH layer: customer dimension built from stg_customers"
+    columns:
+      - name: customer_id
+        description: "Unique identifier of the customer (dimension key)"
+        tests:
+          - unique
+          - not_null
+      - name: customer_name
+        description: "Customer name"
+      - name: email
+        description: "Customer email address"
+      - name: created_at
+        description: "Timestamp when the customer record was created"
+      - name: loaded_at
+        description: "Timestamp when the row was loaded by dbt"
