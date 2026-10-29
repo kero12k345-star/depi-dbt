@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: ods_employees
+    description: "ODS layer: cleaned employees data from the DEPI_data seed"
+    columns:
+      - name: employee_id
+        description: "Unique employee identifier"
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: "Lowercased employee email"
+        tests:
+          - not_null

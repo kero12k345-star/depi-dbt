@@ -5,15 +5,39 @@ models:
     description: "DWH layer: customer dimension built from stg_customers"
     columns:
       - name: customer_id
-        description: "Unique identifier of the customer (dimension key)"
+        description: "Customer key"
         tests:
           - unique
           - not_null
-      - name: customer_name
-        description: "Customer name"
-      - name: email
-        description: "Customer email address"
-      - name: created_at
-        description: "Timestamp when the customer record was created"
-      - name: loaded_at
-        description: "Timestamp when the row was loaded by dbt"
+  - name: dim_country
+    description: "Country dimension"
+    columns:
+      - name: country_key
+        tests: [unique, not_null]
+  - name: dim_department
+    description: "Department dimension"
+    columns:
+      - name: department_key
+        tests: [unique, not_null]
+  - name: dim_gender
+    description: "Gender dimension"
+    columns:
+      - name: gender_key
+        tests: [unique, not_null]
+  - name: dim_date
+    description: "Hire date dimension"
+    columns:
+      - name: date_key
+        tests: [unique, not_null]
+  - name: dim_employee
+    description: "Employee dimension"
+    columns:
+      - name: employee_key
+        tests: [unique, not_null]
+  - name: fact_employee
+    description: "Fact table: one row per employee with dimension keys and salary"
+    columns:
+      - name: employee_key
+        tests: [unique, not_null]
+      - name: salary
+        description: "Monthly salary"

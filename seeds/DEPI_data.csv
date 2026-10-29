@@ -1,0 +1,201 @@
+employee_id,full_name,email,gender,country,department,hire_date,salary
+1,Mohamed Ali,mohamed.ali1@example.com,Female,Saudi Arabia,HR,2019-07-26,14717
+2,Khaled Hassan,khaled.hassan2@example.com,Female,Egypt,Engineering,2019-01-19,22328
+3,Nour Ali,nour.ali3@example.com,Male,Morocco,Marketing,2020-06-21,37439
+4,Laila Mahmoud,laila.mahmoud4@example.com,Male,Saudi Arabia,Marketing,2021-10-25,26210
+5,Sara Saleh,sara.saleh5@example.com,Female,Egypt,Engineering,2022-04-06,14338
+6,Mona Adel,mona.adel6@example.com,Female,Egypt,Marketing,2024-01-06,16180
+7,Youssef Hassan,youssef.hassan7@example.com,Female,Morocco,Finance,2024-06-22,20601
+8,Mohamed Ali,mohamed.ali8@example.com,Male,UAE,Engineering,2020-08-11,14619
+9,Youssef Mahmoud,youssef.mahmoud9@example.com,Female,UAE,HR,2022-02-25,31283
+10,Nour Mahmoud,nour.mahmoud10@example.com,Male,Morocco,HR,2023-12-28,24043
+11,Sara Nasser,sara.nasser11@example.com,Female,UAE,Sales,2020-06-18,29252
+12,Ahmed Saleh,ahmed.saleh12@example.com,Male,UAE,Marketing,2021-01-01,12337
+13,Nour Adel,nour.adel13@example.com,Male,Jordan,Marketing,2023-02-23,17363
+14,Omar Ibrahim,omar.ibrahim14@example.com,Male,Morocco,Sales,2020-12-12,36077
+15,Laila Fathy,laila.fathy15@example.com,Female,Saudi Arabia,HR,2023-09-19,40343
+16,Mohamed Ali,mohamed.ali16@example.com,Male,Saudi Arabia,HR,2022-09-26,12163
+17,Youssef Fathy,youssef.fathy17@example.com,Female,Morocco,Finance,2024-03-16,8752
+18,Mohamed Mahmoud,mohamed.mahmoud18@example.com,Female,Egypt,Finance,2022-11-16,18365
+19,Hana Ali,hana.ali19@example.com,Female,Morocco,HR,2023-09-11,14973
+20,Omar Saleh,omar.saleh20@example.com,Male,UAE,HR,2024-01-19,42757
+21,Ahmed Adel,ahmed.adel21@example.com,Female,Egypt,Engineering,2022-01-26,28153
+22,Nour Ali,nour.ali22@example.com,Male,Morocco,Engineering,2018-12-17,39849
+23,Mohamed Ibrahim,mohamed.ibrahim23@example.com,Male,Jordan,Sales,2019-11-08,25370
+24,Khaled Fathy,khaled.fathy24@example.com,Male,Morocco,HR,2021-06-30,34148
+25,Mona Nasser,mona.nasser25@example.com,Female,Egypt,HR,2020-07-09,12196
+26,Mona Ali,mona.ali26@example.com,Male,Morocco,HR,2018-01-30,12652
+27,Ahmed Saleh,ahmed.saleh27@example.com,Male,Egypt,Finance,2018-10-18,41695
+28,Nour Mahmoud,nour.mahmoud28@example.com,Female,Saudi Arabia,Sales,2019-06-26,38976
+29,Nour Nasser,nour.nasser29@example.com,Female,Saudi Arabia,Engineering,2019-02-02,36249
+30,Mona Fathy,mona.fathy30@example.com,Female,Jordan,Engineering,2019-02-08,11972
+31,Youssef Adel,youssef.adel31@example.com,Male,Saudi Arabia,HR,2020-02-19,43146
+32,Hana Ibrahim,hana.ibrahim32@example.com,Female,Saudi Arabia,Finance,2023-03-10,24371
+33,Mohamed Nasser,mohamed.nasser33@example.com,Male,Egypt,Sales,2018-03-02,14112
+34,Nour Ibrahim,nour.ibrahim34@example.com,Female,Jordan,Marketing,2020-05-25,34282
+35,Ahmed Ibrahim,ahmed.ibrahim35@example.com,Female,Egypt,Marketing,2020-12-22,37819
+36,Omar Fathy,omar.fathy36@example.com,Female,Saudi Arabia,HR,2021-04-30,22267
+37,Ahmed Ali,ahmed.ali37@example.com,Female,Egypt,Engineering,2024-07-20,39246
+38,Khaled Ibrahim,khaled.ibrahim38@example.com,Male,Morocco,Engineering,2020-02-01,12490
+39,Laila Hassan,laila.hassan39@example.com,Male,Jordan,Engineering,2024-05-22,24135
+40,Laila Ali,laila.ali40@example.com,Male,Jordan,Sales,2024-05-04,42261
+41,Mona Mahmoud,mona.mahmoud41@example.com,Male,UAE,HR,2020-12-23,33938
+42,Sara Mahmoud,sara.mahmoud42@example.com,Female,UAE,Engineering,2018-02-08,38034
+43,Laila Hassan,laila.hassan43@example.com,Male,Morocco,HR,2023-09-04,25380
+44,Sara Adel,sara.adel44@example.com,Male,Saudi Arabia,Finance,2021-03-13,18338
+45,Hana Mahmoud,hana.mahmoud45@example.com,Male,Morocco,Finance,2019-03-01,16800
+46,Omar Hassan,omar.hassan46@example.com,Male,Morocco,HR,2021-01-20,26465
+47,Laila Saleh,laila.saleh47@example.com,Female,Saudi Arabia,Finance,2023-09-02,40016
+48,Omar Ali,omar.ali48@example.com,Male,Jordan,Finance,2018-06-30,8232
+49,Mona Ibrahim,mona.ibrahim49@example.com,Female,Saudi Arabia,Marketing,2024-03-09,36028
+50,Khaled Ali,khaled.ali50@example.com,Male,Egypt,HR,2024-02-13,10361
+51,Mona Ibrahim,mona.ibrahim51@example.com,Female,Saudi Arabia,Engineering,2021-06-16,31897
+52,Ahmed Adel,ahmed.adel52@example.com,Male,Saudi Arabia,Engineering,2021-12-19,44692
+53,Youssef Ibrahim,youssef.ibrahim53@example.com,Male,Saudi Arabia,HR,2022-08-16,9624
+54,Sara Adel,sara.adel54@example.com,Female,Saudi Arabia,Finance,2019-10-15,15084
+55,Youssef Ali,youssef.ali55@example.com,Female,Saudi Arabia,HR,2023-03-01,30915
+56,Omar Saleh,omar.saleh56@example.com,Male,Egypt,HR,2022-06-21,29512
+57,Omar Hassan,omar.hassan57@example.com,Female,UAE,Sales,2022-06-26,43141
+58,Mona Ali,mona.ali58@example.com,Male,UAE,HR,2024-07-06,25397
+59,Ahmed Hassan,ahmed.hassan59@example.com,Female,UAE,Finance,2022-11-23,41516
+60,Mohamed Fathy,mohamed.fathy60@example.com,Male,UAE,Engineering,2022-11-22,8110
+61,Khaled Saleh,khaled.saleh61@example.com,Female,Jordan,Engineering,2021-09-14,28572
+62,Mohamed Mahmoud,mohamed.mahmoud62@example.com,Female,Jordan,Finance,2022-07-07,27376
+63,Khaled Ibrahim,khaled.ibrahim63@example.com,Male,Jordan,Marketing,2019-12-14,27723
+64,Youssef Ali,youssef.ali64@example.com,Female,UAE,HR,2022-10-27,29118
+65,Hana Nasser,hana.nasser65@example.com,Female,Saudi Arabia,Sales,2023-04-23,19120
+66,Mohamed Mahmoud,mohamed.mahmoud66@example.com,Female,Egypt,HR,2021-06-25,22722
+67,Nour Ibrahim,nour.ibrahim67@example.com,Male,Egypt,HR,2023-05-01,12772
+68,Hana Fathy,hana.fathy68@example.com,Male,Jordan,Marketing,2022-06-25,23989
+69,Sara Ali,sara.ali69@example.com,Male,Jordan,HR,2019-12-22,41944
+70,Hana Ali,hana.ali70@example.com,Male,Egypt,Marketing,2019-07-01,38450
+71,Khaled Adel,khaled.adel71@example.com,Female,Morocco,Sales,2022-10-14,43905
+72,Hana Ibrahim,hana.ibrahim72@example.com,Female,Jordan,Finance,2020-10-09,26173
+73,Khaled Nasser,khaled.nasser73@example.com,Male,UAE,Marketing,2018-11-14,26725
+74,Nour Mahmoud,nour.mahmoud74@example.com,Female,UAE,Sales,2018-11-27,17068
+75,Sara Saleh,sara.saleh75@example.com,Female,Saudi Arabia,HR,2018-09-21,35188
+76,Youssef Adel,youssef.adel76@example.com,Female,Jordan,Engineering,2020-04-27,35534
+77,Youssef Ali,youssef.ali77@example.com,Female,Jordan,Engineering,2021-12-11,27569
+78,Youssef Fathy,youssef.fathy78@example.com,Male,Jordan,HR,2021-01-22,36562
+79,Hana Ali,hana.ali79@example.com,Female,UAE,Marketing,2019-11-08,38630
+80,Sara Ali,sara.ali80@example.com,Female,Morocco,Sales,2018-04-22,13501
+81,Youssef Ibrahim,youssef.ibrahim81@example.com,Female,Saudi Arabia,Engineering,2020-12-01,32844
+82,Mona Saleh,mona.saleh82@example.com,Female,UAE,Finance,2022-04-02,26235
+83,Youssef Mahmoud,youssef.mahmoud83@example.com,Male,Jordan,Engineering,2024-01-19,11413
+84,Mona Saleh,mona.saleh84@example.com,Male,Egypt,Engineering,2020-10-09,21065
+85,Ahmed Ibrahim,ahmed.ibrahim85@example.com,Male,Saudi Arabia,Marketing,2019-04-14,44960
+86,Nour Nasser,nour.nasser86@example.com,Female,UAE,HR,2024-10-17,15506
+87,Sara Mahmoud,sara.mahmoud87@example.com,Male,Morocco,Engineering,2021-07-01,32596
+88,Youssef Saleh,youssef.saleh88@example.com,Male,Morocco,HR,2019-02-22,27764
+89,Laila Hassan,laila.hassan89@example.com,Male,UAE,Sales,2022-10-21,32285
+90,Mohamed Adel,mohamed.adel90@example.com,Male,Jordan,Marketing,2019-03-09,36411
+91,Mona Nasser,mona.nasser91@example.com,Male,Jordan,HR,2023-11-08,25700
+92,Laila Nasser,laila.nasser92@example.com,Female,Jordan,Sales,2021-01-04,29122
+93,Nour Hassan,nour.hassan93@example.com,Female,Jordan,HR,2023-03-19,32837
+94,Mona Ali,mona.ali94@example.com,Female,UAE,HR,2023-06-21,21901
+95,Mona Mahmoud,mona.mahmoud95@example.com,Female,UAE,Sales,2021-02-05,44424
+96,Ahmed Saleh,ahmed.saleh96@example.com,Male,Saudi Arabia,Marketing,2023-06-25,44384
+97,Nour Nasser,nour.nasser97@example.com,Female,Jordan,Engineering,2019-01-17,27283
+98,Nour Fathy,nour.fathy98@example.com,Male,UAE,Sales,2022-02-20,39015
+99,Khaled Adel,khaled.adel99@example.com,Female,Morocco,Finance,2021-12-12,37736
+100,Omar Mahmoud,omar.mahmoud100@example.com,Female,Saudi Arabia,Engineering,2020-02-28,28679
+101,Mohamed Ibrahim,mohamed.ibrahim101@example.com,Male,Saudi Arabia,Marketing,2021-02-06,42382
+102,Laila Mahmoud,laila.mahmoud102@example.com,Male,Saudi Arabia,Finance,2020-07-20,31650
+103,Sara Mahmoud,sara.mahmoud103@example.com,Male,Morocco,HR,2021-01-28,10982
+104,Ahmed Mahmoud,ahmed.mahmoud104@example.com,Male,Jordan,Engineering,2018-02-20,26634
+105,Hana Nasser,hana.nasser105@example.com,Female,UAE,HR,2018-07-30,24546
+106,Hana Hassan,hana.hassan106@example.com,Male,Jordan,Marketing,2018-10-31,11513
+107,Sara Ibrahim,sara.ibrahim107@example.com,Female,Egypt,HR,2019-05-01,44573
+108,Youssef Saleh,youssef.saleh108@example.com,Female,Jordan,Marketing,2021-05-02,36103
+109,Omar Ali,omar.ali109@example.com,Male,Saudi Arabia,HR,2020-12-19,13320
+110,Sara Saleh,sara.saleh110@example.com,Male,Morocco,Engineering,2019-10-04,8175
+111,Youssef Nasser,youssef.nasser111@example.com,Female,UAE,Engineering,2020-08-06,26881
+112,Omar Nasser,omar.nasser112@example.com,Male,Saudi Arabia,Finance,2024-08-12,20964
+113,Youssef Hassan,youssef.hassan113@example.com,Male,Saudi Arabia,Finance,2019-08-06,12679
+114,Ahmed Ibrahim,ahmed.ibrahim114@example.com,Female,Morocco,Sales,2021-03-28,36780
+115,Mohamed Nasser,mohamed.nasser115@example.com,Female,Jordan,Finance,2023-08-12,43388
+116,Hana Nasser,hana.nasser116@example.com,Male,Morocco,Engineering,2022-11-05,29123
+117,Laila Mahmoud,laila.mahmoud117@example.com,Male,Egypt,HR,2024-06-14,9359
+118,Omar Ali,omar.ali118@example.com,Male,Jordan,Sales,2022-12-17,26229
+119,Sara Fathy,sara.fathy119@example.com,Female,Egypt,Marketing,2021-11-26,34761
+120,Mona Adel,mona.adel120@example.com,Male,Saudi Arabia,Finance,2022-08-14,40471
+121,Omar Fathy,omar.fathy121@example.com,Male,Jordan,Engineering,2021-07-12,24541
+122,Mona Hassan,mona.hassan122@example.com,Female,Morocco,Engineering,2024-02-01,38276
+123,Youssef Ali,youssef.ali123@example.com,Male,Morocco,Finance,2023-08-04,36969
+124,Ahmed Saleh,ahmed.saleh124@example.com,Female,Morocco,HR,2021-03-25,36712
+125,Hana Hassan,hana.hassan125@example.com,Male,Morocco,HR,2019-10-11,28365
+126,Khaled Ali,khaled.ali126@example.com,Female,Egypt,HR,2019-04-10,38241
+127,Mohamed Ibrahim,mohamed.ibrahim127@example.com,Female,UAE,Sales,2021-01-24,35229
+128,Hana Nasser,hana.nasser128@example.com,Male,Jordan,Sales,2019-08-16,33138
+129,Nour Ibrahim,nour.ibrahim129@example.com,Male,UAE,Marketing,2021-10-24,41275
+130,Omar Ali,omar.ali130@example.com,Female,UAE,Sales,2024-07-03,40089
+131,Sara Nasser,sara.nasser131@example.com,Female,UAE,Finance,2024-03-10,43614
+132,Youssef Nasser,youssef.nasser132@example.com,Female,Saudi Arabia,HR,2024-05-31,33098
+133,Nour Fathy,nour.fathy133@example.com,Male,UAE,Marketing,2022-04-11,33302
+134,Sara Nasser,sara.nasser134@example.com,Male,Saudi Arabia,Sales,2024-08-14,29757
+135,Mohamed Nasser,mohamed.nasser135@example.com,Male,Morocco,Marketing,2018-03-04,17447
+136,Youssef Ibrahim,youssef.ibrahim136@example.com,Male,Jordan,Finance,2021-10-18,34049
+137,Mohamed Adel,mohamed.adel137@example.com,Female,UAE,Marketing,2024-01-26,10352
+138,Laila Hassan,laila.hassan138@example.com,Male,UAE,HR,2019-01-06,36440
+139,Mohamed Hassan,mohamed.hassan139@example.com,Female,Saudi Arabia,Finance,2018-04-29,11014
+140,Mona Ali,mona.ali140@example.com,Female,UAE,Finance,2022-10-31,17540
+141,Nour Fathy,nour.fathy141@example.com,Male,Saudi Arabia,HR,2018-11-20,33070
+142,Laila Saleh,laila.saleh142@example.com,Female,Morocco,HR,2020-08-09,38221
+143,Omar Nasser,omar.nasser143@example.com,Female,Egypt,Marketing,2021-03-24,43821
+144,Sara Hassan,sara.hassan144@example.com,Female,UAE,Sales,2021-05-10,35807
+145,Omar Nasser,omar.nasser145@example.com,Female,Saudi Arabia,Marketing,2023-06-03,14989
+146,Nour Fathy,nour.fathy146@example.com,Female,Morocco,Finance,2021-04-24,9437
+147,Youssef Mahmoud,youssef.mahmoud147@example.com,Male,Morocco,Engineering,2024-10-19,40553
+148,Omar Saleh,omar.saleh148@example.com,Female,Saudi Arabia,HR,2020-10-23,16963
+149,Mohamed Ali,mohamed.ali149@example.com,Female,Jordan,Engineering,2024-07-01,31911
+150,Sara Hassan,sara.hassan150@example.com,Female,UAE,Marketing,2019-12-21,21159
+151,Sara Adel,sara.adel151@example.com,Female,Saudi Arabia,Finance,2023-05-28,27342
+152,Mona Hassan,mona.hassan152@example.com,Female,Egypt,HR,2020-07-13,34044
+153,Khaled Adel,khaled.adel153@example.com,Male,Jordan,Engineering,2020-12-19,43164
+154,Mohamed Nasser,mohamed.nasser154@example.com,Female,UAE,Sales,2022-04-10,32344
+155,Mohamed Saleh,mohamed.saleh155@example.com,Female,Egypt,Sales,2024-04-18,29496
+156,Laila Saleh,laila.saleh156@example.com,Male,Jordan,Finance,2022-07-31,15646
+157,Sara Ali,sara.ali157@example.com,Male,UAE,Marketing,2019-04-21,14369
+158,Nour Ibrahim,nour.ibrahim158@example.com,Female,Jordan,Finance,2024-01-22,35467
+159,Laila Ibrahim,laila.ibrahim159@example.com,Female,Egypt,Marketing,2022-07-30,26333
+160,Ahmed Adel,ahmed.adel160@example.com,Male,Jordan,Marketing,2020-08-25,31768
+161,Mohamed Adel,mohamed.adel161@example.com,Female,Egypt,Marketing,2021-02-04,20439
+162,Mohamed Nasser,mohamed.nasser162@example.com,Male,Saudi Arabia,Sales,2018-03-29,11314
+163,Mona Saleh,mona.saleh163@example.com,Male,Morocco,HR,2018-10-09,44320
+164,Nour Saleh,nour.saleh164@example.com,Male,UAE,HR,2024-09-07,8185
+165,Omar Ibrahim,omar.ibrahim165@example.com,Male,Morocco,Finance,2019-12-16,15204
+166,Ahmed Ibrahim,ahmed.ibrahim166@example.com,Male,UAE,HR,2024-08-08,29218
+167,Ahmed Ibrahim,ahmed.ibrahim167@example.com,Female,Egypt,HR,2022-09-21,42477
+168,Mohamed Hassan,mohamed.hassan168@example.com,Female,Jordan,Finance,2023-10-04,15146
+169,Hana Saleh,hana.saleh169@example.com,Male,Morocco,Finance,2023-02-20,10041
+170,Ahmed Nasser,ahmed.nasser170@example.com,Female,Jordan,Engineering,2023-07-02,37069
+171,Mohamed Hassan,mohamed.hassan171@example.com,Female,Morocco,HR,2018-09-27,16270
+172,Omar Adel,omar.adel172@example.com,Female,Morocco,Sales,2021-04-22,37734
+173,Khaled Fathy,khaled.fathy173@example.com,Male,Egypt,Sales,2020-05-30,36185
+174,Hana Saleh,hana.saleh174@example.com,Female,UAE,Marketing,2022-06-22,35262
+175,Mohamed Adel,mohamed.adel175@example.com,Female,UAE,Finance,2022-03-14,18003
+176,Hana Hassan,hana.hassan176@example.com,Male,Egypt,Engineering,2022-11-04,14328
+177,Mona Ibrahim,mona.ibrahim177@example.com,Male,Morocco,Sales,2024-04-19,29603
+178,Mohamed Fathy,mohamed.fathy178@example.com,Female,Jordan,Engineering,2021-03-24,28476
+179,Mona Hassan,mona.hassan179@example.com,Male,Saudi Arabia,Marketing,2020-07-07,15092
+180,Mona Adel,mona.adel180@example.com,Male,UAE,Sales,2020-07-15,36122
+181,Khaled Ali,khaled.ali181@example.com,Female,Egypt,HR,2021-01-24,28249
+182,Mona Adel,mona.adel182@example.com,Male,Saudi Arabia,HR,2024-05-08,34265
+183,Mohamed Ibrahim,mohamed.ibrahim183@example.com,Male,Egypt,Sales,2020-05-31,32654
+184,Youssef Nasser,youssef.nasser184@example.com,Female,Saudi Arabia,Finance,2021-06-30,29258
+185,Laila Hassan,laila.hassan185@example.com,Male,Saudi Arabia,HR,2018-07-23,13346
+186,Omar Nasser,omar.nasser186@example.com,Female,Jordan,Sales,2022-12-16,35143
+187,Omar Saleh,omar.saleh187@example.com,Male,UAE,Marketing,2019-03-31,26562
+188,Laila Nasser,laila.nasser188@example.com,Female,Egypt,HR,2022-06-07,11590
+189,Ahmed Saleh,ahmed.saleh189@example.com,Female,Saudi Arabia,HR,2020-11-12,26969
+190,Mona Hassan,mona.hassan190@example.com,Male,Jordan,Marketing,2019-12-21,16466
+191,Youssef Saleh,youssef.saleh191@example.com,Female,Egypt,Marketing,2018-06-23,36588
+192,Ahmed Nasser,ahmed.nasser192@example.com,Male,UAE,Sales,2022-10-25,34504
+193,Youssef Mahmoud,youssef.mahmoud193@example.com,Male,Jordan,Engineering,2021-08-23,19263
+194,Laila Nasser,laila.nasser194@example.com,Female,Egypt,Marketing,2019-03-10,23945
+195,Youssef Fathy,youssef.fathy195@example.com,Male,Jordan,Finance,2021-10-22,22520
+196,Mona Ibrahim,mona.ibrahim196@example.com,Male,Morocco,Engineering,2023-12-14,41420
+197,Nour Adel,nour.adel197@example.com,Female,Saudi Arabia,HR,2019-02-26,17597
+198,Omar Saleh,omar.saleh198@example.com,Male,Morocco,HR,2018-11-05,19609
+199,Hana Nasser,hana.nasser199@example.com,Female,Morocco,Sales,2021-08-16,28718
+200,Sara Nasser,sara.nasser200@example.com,Male,Jordan,Marketing,2021-05-25,26001

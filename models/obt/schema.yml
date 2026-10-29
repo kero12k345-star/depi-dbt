@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: obt_employees
+    description: "One Big Table with all employee attributes"
+    columns:
+      - name: employee_id
+        description: "Unique employee identifier"
+        tests:
+          - unique
+          - not_null
