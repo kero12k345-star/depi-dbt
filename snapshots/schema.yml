@@ -1,0 +1,15 @@
+version: 2
+
+snapshots:
+  - name: snap_employee
+    description: "SCD Type 2 history of employee attributes (name, email, gender, country, department, hire date, salary)"
+    columns:
+      - name: dbt_scd_id
+        description: "Unique id of each historical version"
+        tests: [unique, not_null]
+      - name: employee_id
+        description: "Business key of the employee"
+        tests: [not_null]
+      - name: salary
+        description: "Monthly salary at that point in time"
+        tests: [positive_value]
